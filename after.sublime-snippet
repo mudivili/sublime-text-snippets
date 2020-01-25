@@ -1,0 +1,13 @@
+<snippet>
+  <content>
+    <![CDATA[
+after(async () => {
+  
+  ${1:}
+
+});
+    ]]>
+  </content>
+  <tabTrigger>after</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

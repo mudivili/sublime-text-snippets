@@ -1,0 +1,9 @@
+<snippet>
+  <content>
+    <![CDATA[
+assert.ok(${1:object} !== null && typeof ${1:object} === 'object');
+]]>
+  </content>
+  <tabTrigger>object-assert</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

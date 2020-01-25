@@ -1,0 +1,14 @@
+<snippet>
+  <content>
+    <![CDATA[
+
+const ${2:method} = ${3:async} (${4:params}) => {
+  return ${5:};
+};
+sinon.stub(${1:object}, '${2:method}').callsFake(${2:method});
+${1:object}.${2:method}.restore();
+    ]]>
+  </content>
+  <tabTrigger>stub-method</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

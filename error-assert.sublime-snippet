@@ -1,0 +1,16 @@
+<snippet>
+  <content>
+    <![CDATA[
+const testFunction = async () => {
+  return ${1:method};
+};
+
+await assert.rejects(testFunction, {
+  code: 'ERR_ASSERTION',
+  message: '${2:}'
+});
+    ]]>
+  </content>
+  <tabTrigger>error-assert</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

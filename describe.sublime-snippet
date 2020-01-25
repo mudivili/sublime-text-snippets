@@ -1,7 +1,7 @@
 <snippet>
   <content>
-<![CDATA[
-describe('${1:test suite description here}', async () => {
+    <![CDATA[
+describe('${1:test suite description here}', () => {
 
   ${2:}
 

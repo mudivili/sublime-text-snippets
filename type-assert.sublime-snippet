@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+assert.equal(typeof ${1:result}, '${2:boolean}');
+${4:assert.equal(${1:result}, ${3:expectedValue});}
+]]>
+  </content>
+  <tabTrigger>type-assert</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+assert.${3:equal}(typeof ${1:object}.${2:property}, '${4:undefined}');
+${6:assert.equal(${1:object}.${2:property}, ${5:expectedValue});}
+    ]]>
+  </content>
+  <tabTrigger>object-property-assert</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

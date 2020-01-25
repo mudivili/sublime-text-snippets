@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+assert.ok(typeof ${1:variable} ${2:===} '${3:string}');
+${5:assert.equal(${1:variable}, ${4:expectedValue});}
+]]>
+  </content>
+  <tabTrigger>value-assert</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

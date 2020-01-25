@@ -1,0 +1,16 @@
+<snippet>
+  <content>
+    <![CDATA[
+assert.ok(Array.isArray(${1:array}));
+assert.equal(${1:array}.length, ${2:expectedValue});
+
+${1:array}.forEach((${3:arrayElement}) => {
+    
+  ${4:}
+
+});
+    ]]>
+  </content>
+  <tabTrigger>array-assert</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

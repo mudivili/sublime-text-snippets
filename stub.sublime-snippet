@@ -2,7 +2,7 @@
   <content>
     <![CDATA[
 
-const ${2:method} = ${3:async} (${4:params}) => {
+${3:async} function  ${2:method}(${4:params}) {
   return ${5:};
 };
 sinon.stub(${1:object}, '${2:method}').callsFake(${2:method});
